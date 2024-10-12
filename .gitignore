@@ -1,0 +1,4 @@
+/vendor
+!/texts
+/texts/*
+!/texts/doc.txt

@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "php",
+            "name": "txt-parallel-doc.php",
+            "file": "examples/txt-parallel-doc.php",
+        },
+
+    ]
+}
