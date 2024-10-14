@@ -1,5 +1,5 @@
 {
-    "name": "nigo/doc",
+    "name": "nigo/parallel-doc",
     "type": "library",
     "autoload": {
         "psr-4": {
