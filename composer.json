@@ -11,5 +11,17 @@
         "larapack/dd": "^1.1",
         "vlucas/phpdotenv": "^5.6",
         "nigo/simple-libre-translator": "dev-master"
+    },
+    "require-dev": {
+        "nunomaduro/phpinsights": "^2.11"
+    },
+    "scripts": {
+        "code": ["./vendor/bin/phpinsights"],
+        "code-fix": ["./vendor/bin/phpinsights --fix"]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }

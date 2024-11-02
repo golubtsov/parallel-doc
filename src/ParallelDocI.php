@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Nigo\Doc;
 
-interface ParallelDocInterface
+interface ParallelDocI
 {
     public function generate(
         string $pathRead,
